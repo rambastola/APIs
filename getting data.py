@@ -21,9 +21,6 @@ def search_walmart(answer):
         rating = product["customerRating"]
         print(name, price, upc, rating)
 
-        # try and except if no rating available and for all
-        #add camera func. scan barcode
-
 def main():
 
     user = input("Enter product name ")
