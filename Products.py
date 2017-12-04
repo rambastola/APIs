@@ -21,7 +21,7 @@ def search_walmart(answer):
 def main():
 
     user = input("Enter product name ")
-    response = requests.get("http://api.walmartlabs.com/v1/search?apiKey=bvngau7xave9du9m5wzhfdtb&query="+ user)
+    response = requests.get("http://api.walmartlabs.com/v1/search?apiKey=INSERTKEYY&query="+ user)
     search_walmart(response)
 
 main()
